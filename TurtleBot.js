@@ -1,11 +1,11 @@
-const config = require('./config.json')
+const config = require('./config.json');
 const filter = message => message.author.id;
 const ytdl = require('ytdl-core');
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const moment = require('moment')
+const moment = require('moment');
 
-    const help = new Discord.RichEmbed()
+    const help = new Discord.RichEmbed();
 
     .setColor(0x4F7942)
       .setAuthor("Basic Commands", "https://cdn.discordapp.com/avatars/313747791329493002/f262ee93644056bb9366dbef70d29441.png?size=2048")
