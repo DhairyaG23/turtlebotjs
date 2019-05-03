@@ -4,6 +4,8 @@
   "description": "",
   "main": "KnifeBot.js",
   "scripts": {
+     
+    "start": "TurtleBot.js"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -21,4 +23,6 @@
     "youtube-search": "^1.0.10",
     "ytdl-core": "^0.13.2"
   }
+ 
+
 }
